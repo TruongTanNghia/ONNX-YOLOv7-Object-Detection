@@ -17,7 +17,7 @@ yolov7_path = "models/yolov7-tiny_736x1280.onnx"
 yolov7_detector = YOLOv7(yolov7_path, conf_thres=0.5, iou_thres=0.5)
 
 # Replace the model path with the YOLOv5 or YOLOv6 model path
-# yolov5_v6_path = "models/yolov6s.onnx"
+# yolov5_v6_path = "models/yolov6s.onnx" 
 yolov5_v6_path = "models/yolov5s6.onnx"
 yolov5_v6_model_name = "YOLOv6s" if "v6" in yolov5_v6_path else "YOLOv5s6"
 yolov5_v6_detector = YOLOv7(yolov5_v6_path, conf_thres=0.5, iou_thres=0.5)
