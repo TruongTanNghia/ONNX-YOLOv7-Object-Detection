@@ -9,7 +9,7 @@
 
 # Requirements
   
- * Check the **requirements.txt** file.
+ * Check the **requirements.txt** file.   
  * For ONNX, if you have a NVIDIA GPU, then install the **onnxruntime-gpu**, otherwise use the **onnxruntime** library.
 
 # Installation
